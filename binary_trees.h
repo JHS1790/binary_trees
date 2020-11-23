@@ -17,10 +17,10 @@
  */
 struct binary_tree_s
 {
-    int n;
-    struct binary_tree_s *parent;
-    struct binary_tree_s *left;
-    struct binary_tree_s *right;
+	int n;
+	struct binary_tree_s *parent;
+	struct binary_tree_s *left;
+	struct binary_tree_s *right;
 };
 
 /* Types */
@@ -52,10 +52,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
 
 /* Non-Project Prototypes */
-/*
-static int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
-static size_t _height(const binary_tree_t *tree);
-*/
 void binary_tree_print(const binary_tree_t *tree);
 size_t findMax(size_t a, size_t b);
 size_t recursiveSearch(const binary_tree_t *tree);
