@@ -12,6 +12,11 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 	return (depth_search(tree->parent));
 }
 
+/**
+ * depth_search - recursive call function for binary_tree_depth
+ * @tree: a pointer to the node to measure the depth
+ * Return: depth or 0 if NULL
+ */
 size_t depth_search(const binary_tree_t *tree)
 {
 	if (tree == NULL)
