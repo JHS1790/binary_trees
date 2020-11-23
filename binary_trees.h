@@ -59,6 +59,7 @@ static size_t _height(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *tree);
 size_t findMax(size_t a, size_t b);
 size_t recursiveSearch(const binary_tree_t *tree);
+size_t depth_search(const binary_tree_t *tree);
 
 
 #endif /* B_TREES */
