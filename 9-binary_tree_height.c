@@ -24,8 +24,8 @@ size_t recursiveSearch(const binary_tree_t *tree)
 	return (
 		findMax(
 			recursiveSearch(tree->left),
-			recursiveSearch(tree->right) + 1
-			)
+			recursiveSearch(tree->right)
+			) + 1
 		);
 }
 
