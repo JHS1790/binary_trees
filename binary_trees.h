@@ -57,6 +57,8 @@ void binary_tree_print(const binary_tree_t *tree);
 size_t findMax(size_t a, size_t b);
 size_t recursiveSearch(const binary_tree_t *tree);
 size_t depth_search(const binary_tree_t *tree);
+int _pow_recursion(int x, int y);
+size_t binary_tree_all_nodes(const binary_tree_t *tree);
 
 
 #endif /* B_TREES */
